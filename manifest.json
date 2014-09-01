@@ -1,0 +1,16 @@
+{
+  "name": "Briefcase",
+  "description": "Chrome extension that saves and closes all the currently open tabs so they can be viewed offline later.",
+  "version": "0.0.1",
+  "permissions": [
+    "tabs", "storage", "unlimitedStorage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Save these links"
+  },
+  "manifest_version": 2
+}
